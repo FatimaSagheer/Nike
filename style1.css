@@ -65,8 +65,8 @@ ul {
   }
   
   li {
-    float: right;
-    /* border-right: 1px solid #bbb; */
+    /* float: right; */
+    /* border-right: 1px solid #bbb; */git status
   }
   
   li a {
@@ -215,14 +215,22 @@ margin: 0px;
 padding:unset;
 }
 }
+figcaption{
+    text-align: center;
+}
+.description{
+   padding: 0px 120px; 
+}
 .Feature-item{
-  display: inline-block;
+  display: flex;
     align-items: center;
     flex: 1;
     margin: 10px;
     padding: 20px;
     border: 1px solid #ccc;
-    text-align: center;
+    /* text-align: center; */
+    float: left;
+    justify-content: space-around;
 }
 
 
